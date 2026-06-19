@@ -1,0 +1,38 @@
+/time set day
+/minigame start
+/minigame setup
+/minigame
+/minigame start
+/minigame
+/minigame setup
+/minigame join_red
+/minigame start
+/minigame join_blue
+/minigame
+/minigame start
+/minigame setup
+/minigame join_blue
+/minigame
+/time set day
+/minigame start
+/time set day
+/spawnpoint
+/execute in minecraft:overworld run tp @s 0 65 0
+/tp -66 104 150
+/tp -66 104 -150
+/bossbar remove minecraft_ctf:*
+/bossbar remove minecraft_ctf: *
+/bossbar remove minecraft_ctf:red_gauge
+/bossbar remove minecraft_ctf:ctf_only_one_bar
+/time set day
+/weather clear
+/bossbar remove minecraft_ctf:ctf_only_one_bar
+/tp -66 104 -150
+/execute in minecraft:overworld run tp -66 104 -150
+/tag @a list
+/execute in minecraft:overworld run tp -66 104 -150
+/time set day
+/execute in minecraft:overworld run tp -66 104 -150
+/tp -66 104 -150
+/time set day
+/weather clear
