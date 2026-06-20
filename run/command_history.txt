@@ -36,3 +36,7 @@
 /tp -66 104 -150
 /time set day
 /weather clear
+/tp -66 104 -150
+/execute in minecraft:overworld run tp -66 104 -150
+/time set day
+/execute in minecraft:overworld run tp -66 104 -150
