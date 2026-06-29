@@ -1,11 +1,3 @@
-/time set day
-/minigame start
-/minigame setup
-/minigame
-/minigame start
-/minigame
-/minigame setup
-/minigame join_red
 /minigame start
 /minigame join_blue
 /minigame
@@ -37,6 +29,22 @@
 /time set day
 /weather clear
 /tp -66 104 -150
+/execute in minecraft:overworld run tp -66 104 -150
+/time set day
+/execute in minecraft:overworld run tp -66 104 -150
+/time set day
+/execute in minecraft:overworld run tp -66 104 -150
+/time set day
+/execute in minecraft:overworld run tp 5778 63 -6573
+/tp 5778 63 -6573
+/time set night
+/tp 5778 63 -6573
+/time set day
+/execute in minecraft:overworld run tp 5778 63 -6573
+/execute in minecraft:overworld run tp -66 104 -150
+/
+/execute in minecraft:overworld run tp -66 104 -150
+/time set day
 /execute in minecraft:overworld run tp -66 104 -150
 /time set day
 /execute in minecraft:overworld run tp -66 104 -150

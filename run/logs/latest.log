@@ -1,142 +1,128 @@
-[196月2026 11:52:57.261] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.233, --assetIndex, 17, --assetsDir, C:\\Users\\西田来愛\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.233, --fml.neoFormVersion, 20240808.144430]
-[196月2026 11:52:57.265] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
-[196月2026 11:52:57.267] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[196月2026 11:52:57.457] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[196月2026 11:52:57.640] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[196月2026 11:52:57.845] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[196月2026 11:52:58.037] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/西田来愛/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
-[196月2026 11:52:58.146] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon(TM) Graphics GL version 4.6.14761 Core Profile Forward-Compatible Context 21.30.26 30.0.13026.3, ATI Technologies Inc.
-[196月2026 11:52:58.840] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[196月2026 11:52:58.843] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[276月2026 11:46:06.580] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.233, --assetIndex, 17, --assetsDir, C:\\Users\\西田来愛\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.233, --fml.neoFormVersion, 20240808.144430]
+[276月2026 11:46:06.587] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[276月2026 11:46:06.589] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[276月2026 11:46:06.806] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[276月2026 11:46:06.969] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[276月2026 11:46:07.195] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[276月2026 11:46:07.328] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/西田来愛/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[276月2026 11:46:07.451] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon(TM) Graphics GL version 4.6.14761 Core Profile Forward-Compatible Context 21.30.26 30.0.13026.3, ATI Technologies Inc.
+[276月2026 11:46:08.386] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[276月2026 11:46:08.390] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Minecraft 1.21.1 (minecraft)
-		Minecraft_CTF 1.0-SNAPSHOT (minecraft_ctf)
+		Minecraft_CTF 1.0.0 (minecraft_ctf)
 		NeoForge 21.1.233 (neoforge)
-[196月2026 11:53:00.915] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.233, --gameDir, ., --assetsDir, C:\Users\西田来愛\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
-[196月2026 11:53:03.326] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 419 milliseconds
-[196月2026 11:53:03.546] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[196月2026 11:53:10.289] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[196月2026 11:53:10.291] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[196月2026 11:53:10.295] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[196月2026 11:53:10.296] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[196月2026 11:53:10.297] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[196月2026 11:53:10.484] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/制作/Minecraft_CTF/build/moddev/artifacts/neoforge-21.1.233.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[196月2026 11:53:10.484] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/制作/Minecraft_CTF/build/moddev/artifacts/neoforge-21.1.233.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[196月2026 11:53:10.527] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[196月2026 11:53:10.552] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[196月2026 11:53:10.740] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[196月2026 11:53:11.108] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.233, for MC 1.21.1
-[196月2026 11:53:12.410] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [minecraft_ctf]
-[196月2026 11:53:12.568] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/minecraft_ctf
-[196月2026 11:53:12.819] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[196月2026 11:53:12.952] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[196月2026 11:53:15.354] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[196月2026 11:53:15.355] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[196月2026 11:53:15.949] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on スピーカー (Realtek(R) Audio)
-[196月2026 11:53:15.950] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[196月2026 11:53:16.144] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[196月2026 11:53:16.343] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[196月2026 11:53:16.346] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[196月2026 11:53:16.348] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[196月2026 11:53:16.352] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[196月2026 11:53:16.382] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[196月2026 11:53:16.384] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[196月2026 11:53:16.386] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[196月2026 11:53:16.388] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[196月2026 11:53:16.658] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[196月2026 11:53:16.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[196月2026 11:53:16.665] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[196月2026 11:53:16.666] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[196月2026 11:53:16.667] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[196月2026 11:53:16.704] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[196月2026 11:53:16.785] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[196月2026 11:53:27.082] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[196月2026 11:53:27.328] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[196月2026 11:53:27.851] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[196月2026 11:53:27.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[196月2026 11:53:29.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[196月2026 11:53:29.880] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[196月2026 11:53:29.880] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
-[196月2026 11:53:30.066] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[196月2026 11:53:30.080] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 784 ms
-[196月2026 11:53:30.237] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[196月2026 11:53:30.237] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[196月2026 11:53:31.533] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:f864ab9d] logged in with entity id 3 at (-68.69693809551849, 104.0, -150.30481766195675)
-[196月2026 11:53:31.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームに参加しました
-[196月2026 11:53:31.940] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 106 advancements
-[196月2026 11:53:45.300] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【選択】レッドチームに参加しました！（REDタグ付与）
-[196月2026 11:53:46.660] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 🔴レッドチームが準備完了しました！
-[196月2026 11:53:47.908] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【選択】ブルーチームに参加しました！（BLUEタグ付与）
-[196月2026 11:53:49.209] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 🔵ブルーチームが準備完了しました！
-[196月2026 11:53:49.209] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 3 秒...
-[196月2026 11:53:50.225] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 2 秒...
-[196月2026 11:53:51.208] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 1 秒...
-[196月2026 11:53:52.209] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ミニゲームが開始されました！
-[196月2026 11:54:02.208] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 制限時間終了！ゲームが幕を閉じました。
-[196月2026 11:54:17.307] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【テスト選択】初級コース（制限時間: 10秒）を選択しました。
-[196月2026 11:54:28.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
-[196月2026 11:54:28.455] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
-[196月2026 11:54:32.604] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【テスト選択】中級コース（制限時間: 10秒）を選択しました。
-[196月2026 11:54:36.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをスペクテイターモードに変更しました］
-[196月2026 11:54:36.071] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをスペクテイターモードに変更しました
-[196月2026 11:54:48.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
-[196月2026 11:54:48.820] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
-[196月2026 11:54:54.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[196月2026 11:54:54.901] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[196月2026 11:55:53.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
-[196月2026 11:55:53.953] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
-[196月2026 11:56:01.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：時刻を1000に設定しました］
-[196月2026 11:56:01.960] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 時刻を1000に設定しました
-[196月2026 11:56:05.961] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【テスト選択】上級コース（制限時間: 10秒）を選択しました。
-[196月2026 11:56:09.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをスペクテイターモードに変更しました］
-[196月2026 11:56:09.759] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをスペクテイターモードに変更しました
-[196月2026 11:56:20.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
-[196月2026 11:56:20.894] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
-[196月2026 11:56:25.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[196月2026 11:56:25.575] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[196月2026 11:56:27.508] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【テスト選択】中級コース（制限時間: 10秒）を選択しました。
-[196月2026 11:56:30.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをアドベンチャーモードに変更しました］
-[196月2026 11:56:30.891] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをアドベンチャーモードに変更しました
-[196月2026 11:56:34.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをスペクテイターモードに変更しました］
-[196月2026 11:56:34.691] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをスペクテイターモードに変更しました
-[196月2026 11:56:44.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
-[196月2026 11:56:44.718] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
-[196月2026 11:56:50.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをサバイバルモードに変更しました］
-[196月2026 11:56:50.206] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをサバイバルモードに変更しました
-[196月2026 11:56:52.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[196月2026 11:56:52.022] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[196月2026 11:56:57.354] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【テスト選択】上級コース（制限時間: 10秒）を選択しました。
-[196月2026 11:57:00.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをスペクテイターモードに変更しました］
-[196月2026 11:57:00.254] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをスペクテイターモードに変更しました
-[196月2026 11:57:06.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
-[196月2026 11:57:06.570] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
-[196月2026 11:57:09.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
-[196月2026 11:57:09.395] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
-[196月2026 11:57:15.703] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【コース選択】開発テスト用コース（制限時間: 10秒）が選択されました
-[196月2026 11:57:16.320] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【コース選択】開発テスト用コース（制限時間: 10秒）が選択されました
-[196月2026 11:57:16.802] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【コース選択】開発テスト用コース（制限時間: 10秒）が選択されました
-[196月2026 11:57:17.252] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【コース選択】開発テスト用コース（制限時間: 10秒）が選択されました
-[196月2026 11:58:09.220] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[196月2026 11:58:09.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:overworld
-[196月2026 11:58:09.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_end
-[196月2026 11:58:09.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_nether
-[196月2026 12:03:59.917] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[196月2026 12:03:59.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:overworld
-[196月2026 12:03:59.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_end
-[196月2026 12:03:59.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_nether
-[196月2026 12:04:02.129] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 切断されました
-[196月2026 12:04:02.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームを退出しました
-[196月2026 12:04:02.148] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[196月2026 12:04:02.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[196月2026 12:04:02.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[196月2026 12:04:02.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[196月2026 12:04:02.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:overworld
-[196月2026 12:04:02.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_end
-[196月2026 12:04:02.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_nether
-[196月2026 12:04:02.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (test_mod): All chunks are saved
-[196月2026 12:04:02.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[196月2026 12:04:02.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[196月2026 12:04:02.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[196月2026 12:04:03.623] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[276月2026 11:46:10.230] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.233, --gameDir, ., --assetsDir, C:\Users\西田来愛\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[276月2026 11:46:12.985] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 798 milliseconds
+[276月2026 11:46:13.204] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[276月2026 11:46:19.544] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[276月2026 11:46:19.545] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[276月2026 11:46:19.548] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[276月2026 11:46:19.549] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[276月2026 11:46:19.550] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[276月2026 11:46:19.712] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/制作/Minecraft_CTF/build/moddev/artifacts/neoforge-21.1.233.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[276月2026 11:46:19.712] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/制作/Minecraft_CTF/build/moddev/artifacts/neoforge-21.1.233.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[276月2026 11:46:19.751] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[276月2026 11:46:19.768] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[276月2026 11:46:19.908] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[276月2026 11:46:20.242] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.233, for MC 1.21.1
+[276月2026 11:46:21.331] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [minecraft_ctf]
+[276月2026 11:46:21.523] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/minecraft_ctf
+[276月2026 11:46:21.735] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[276月2026 11:46:22.000] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[276月2026 11:46:24.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[276月2026 11:46:24.646] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[276月2026 11:46:25.305] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on スピーカー (Realtek(R) Audio)
+[276月2026 11:46:25.309] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[276月2026 11:46:25.481] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[276月2026 11:46:25.675] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[276月2026 11:46:25.678] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[276月2026 11:46:25.680] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[276月2026 11:46:25.684] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[276月2026 11:46:25.708] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[276月2026 11:46:25.710] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[276月2026 11:46:25.711] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[276月2026 11:46:25.713] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[276月2026 11:46:25.999] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[276月2026 11:46:26.005] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[276月2026 11:46:26.006] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[276月2026 11:46:26.008] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[276月2026 11:46:26.009] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[276月2026 11:46:26.048] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[276月2026 11:46:26.123] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[276月2026 11:47:02.153] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[276月2026 11:47:02.384] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[276月2026 11:47:03.059] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[276月2026 11:47:03.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[276月2026 11:47:04.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[276月2026 11:47:04.783] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: スポーン地点を準備中：0%
+[276月2026 11:47:04.877] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[276月2026 11:47:04.884] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 532 ms
+[276月2026 11:47:04.969] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[276月2026 11:47:04.969] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[276月2026 11:47:05.923] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7721e13e] logged in with entity id 6 at (-73.25767180168111, 104.0, -151.92560045145999)
+[276月2026 11:47:06.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームに参加しました
+[276月2026 11:47:06.206] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 121 advancements
+[276月2026 11:47:14.940] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ブルーチームに参加しました！（BLUEタグ付与）
+[276月2026 11:47:16.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ブルーチームが準備完了しました！
+[276月2026 11:47:19.799] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] レッドチームに参加しました！（REDタグ付与）
+[276月2026 11:47:21.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] レッドチームが準備完了しました！
+[276月2026 11:47:21.749] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 10 秒...
+[276月2026 11:47:22.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 9 秒...
+[276月2026 11:47:23.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 8 秒...
+[276月2026 11:47:24.749] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 7 秒...
+[276月2026 11:47:25.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 6 秒...
+[276月2026 11:47:26.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 5 秒...
+[276月2026 11:47:27.764] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 4 秒...
+[276月2026 11:47:28.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 3 秒...
+[276月2026 11:47:29.747] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 2 秒...
+[276月2026 11:47:30.747] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲーム開始まであと 1 秒...
+[276月2026 11:47:31.747] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 【Minecraft_CTFが開始されました！】
+[276月2026 11:48:05.927] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 初級：クリーパーコースを選択しました。
+[276月2026 11:48:11.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
+[276月2026 11:48:11.843] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
+[276月2026 11:48:15.093] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 中級：ピグリンコースを選択しました。
+[276月2026 11:48:18.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをスペクテイターモードに変更しました］
+[276月2026 11:48:18.976] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをスペクテイターモードに変更しました
+[276月2026 11:48:26.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
+[276月2026 11:48:26.534] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
+[276月2026 11:48:28.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
+[276月2026 11:48:29.084] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
+[276月2026 11:48:32.808] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 上級：エンダードラゴンコースを選択しました。
+[276月2026 11:48:35.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをスペクテイターモードに変更しました］
+[276月2026 11:48:35.674] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをスペクテイターモードに変更しました
+[276月2026 11:48:46.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
+[276月2026 11:48:46.073] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
+[276月2026 11:48:47.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
+[276月2026 11:48:47.987] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
+[276月2026 11:48:51.273] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ウィザーコースを選択しました。
+[276月2026 11:48:54.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをスペクテイターモードに変更しました］
+[276月2026 11:48:54.172] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをスペクテイターモードに変更しました
+[276月2026 11:49:18.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：ゲームモードをクリエイティブモードに変更しました］
+[276月2026 11:49:18.470] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ゲームモードをクリエイティブモードに変更しました
+[276月2026 11:49:19.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ［Dev：Devを-65.500000, 104.000000, -149.500000にテレポートさせました］
+[276月2026 11:49:19.953] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Devを-65.500000, 104.000000, -149.500000にテレポートさせました
+[276月2026 11:49:25.652] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] レッドチームが準備完了しました！
+[276月2026 11:49:31.551] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [CTF] ゲーム状態が完全リセットされました
+[276月2026 11:49:31.552] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] CTFを完全リセットしました
+[276月2026 11:49:37.951] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] チームを選択してから準備ボタンを押してください。
+[276月2026 11:49:40.181] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[276月2026 11:49:40.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:overworld
+[276月2026 11:49:40.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_end
+[276月2026 11:49:40.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_nether
+[276月2026 11:50:03.039] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 切断されました
+[276月2026 11:50:03.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームを退出しました
+[276月2026 11:50:03.058] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[276月2026 11:50:03.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[276月2026 11:50:03.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[276月2026 11:50:03.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[276月2026 11:50:03.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:overworld
+[276月2026 11:50:03.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_end
+[276月2026 11:50:03.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test_mod]'/minecraft:the_nether
+[276月2026 11:50:03.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (test_mod): All chunks are saved
+[276月2026 11:50:03.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[276月2026 11:50:03.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[276月2026 11:50:03.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[276月2026 11:50:04.597] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

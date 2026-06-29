@@ -15,6 +15,7 @@
       "minecraft:grove": "2026-06-16 11:53:53 +0900",
       "minecraft:meadow": "2026-06-15 23:10:26 +0900",
       "minecraft:dripstone_caves": "2026-06-16 11:50:00 +0900",
+      "minecraft:frozen_peaks": "2026-06-23 15:21:27 +0900",
       "minecraft:plains": "2026-06-15 15:38:20 +0900",
       "minecraft:deep_lukewarm_ocean": "2026-06-16 14:17:15 +0900"
     },
@@ -354,6 +355,54 @@
   "minecraft:story/enter_the_end": {
     "criteria": {
       "entered_end": "2026-06-16 14:20:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-06-21 19:24:46 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2026-06-22 15:01:11 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-06-23 15:03:39 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-06-23 15:03:39 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-06-23 15:03:39 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_banner": {
+    "criteria": {
+      "has_cyan_wool": "2026-06-23 15:57:03 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_carpet": {
+    "criteria": {
+      "has_cyan_wool": "2026-06-23 15:57:03 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed": {
+    "criteria": {
+      "has_cyan_wool": "2026-06-23 15:57:03 +0900"
     },
     "done": true
   },
